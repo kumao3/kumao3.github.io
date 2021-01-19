@@ -1,4 +1,16 @@
-# ブログサイトをgithub pagesで公開する
+---
+layout   : single
+title    : "ブログサイトをgithub pagesで公開する"
+published: true
+date     : 2021-01-19 11:00:00 +0900
+comments : false
+categories:
+- ブログ
+tags:
+- Jekyll
+- github
+- Minimal mistakes
+---
 
 jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと思い、
 その環境構築をしたときのメモ。
@@ -68,10 +80,13 @@ plugins:
 *  githubに git push
 
 ```
-git add -A ; git commit -m update ; git push
+git add -A && git commit -m update && git push
 ```
 
 
 * github pagesに反映されたかブラウザで確認
   * https://{username}.github.io/ 
   * https://kumao3.github.io/
+
+
+いったんここまで。
