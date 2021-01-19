@@ -40,7 +40,7 @@ defaults:
       type: posts
     values:
       layout: wide
-      toc: true
+      toc: false
       author: kumao
       author_profile: true
       read_time: true
