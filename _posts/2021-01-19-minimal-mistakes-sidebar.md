@@ -1,6 +1,6 @@
 ---
 layout   : single
-title    : "minimal Mistakesのカスタマイズ"
+title    : "Minimal Mistakesのカスタマイズ"
 published: true
 date     : 2021-01-19 11:10:00 +0900
 comments : false
