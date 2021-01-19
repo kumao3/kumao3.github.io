@@ -13,7 +13,7 @@ jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと
 $ bundle install jekyll -v=3.9.0
 $ jekyklll new .
 ```
-* bunble install
+* bundle install
 
 ```
 Gemfile
