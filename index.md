@@ -3,4 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+author: kumao
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
