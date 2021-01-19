@@ -13,8 +13,6 @@ tags:
 - Minimal mistakes
 ---
 
-# カスタマイズ
-
 最初に用意されている`_posts/2021-01-19-welcome-to-jekyll.markdown` を参考に記事を追加していく。
 
 
