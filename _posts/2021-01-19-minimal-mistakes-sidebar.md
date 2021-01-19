@@ -33,42 +33,32 @@ mkdir -p assets/images
 
 ## サイトの設定
 
-* _config.ymlに設定する。
+* `_config.yml` で設定
 
-### 記事のデフォルトスタイル
-
-* tocあり 
-* 幅を`wide`
-
-```
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: wide
-      toc: true
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-```
-
-### ロゴ変更
+#### ロゴ変更
 
 ```
 logo: asses/images/logo.svg
 ```
 
-## ナビゲーション追加(画面上のタブっぽいやつ)
-
-
-*  `_data/navigation.yml` 用意
+#### author追加
+  * `_data/authors.yml`用意
 
 ```
-main:
+kumao:
+  name        : "kumao"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/me.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tweetrade"
+```
+
+#### サイドバーにナビ
+  *  `_data/navigation.yml` 用意
+```
+docs:
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "Posts"
@@ -85,5 +75,27 @@ main:
     url: https://google.com
 ```
 
-* https://mmistakes.github.io/minimal-mistakes/docs/navigation/
-* https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
+### 記事のデフォルトスタイル設定
+
+* _config.yml
+
+```
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: wide
+      toc: false
+      author: kumao
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+```
+
+
