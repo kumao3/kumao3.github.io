@@ -15,8 +15,20 @@ tags:
 最初に用意されている`_posts/2021-01-19-welcome-to-jekyll.markdown` を参考に記事を追加していく。
 
 
-## サイドバー追加
+## ロゴ追加
 
+```
+mkdir -p assets/images
+ロゴデータをasses/images/logo.svgとして作成
+```
+
+* _config.yml 追記
+
+```
+logo: asses/images/logo.svg
+```
+
+## サイドバー追加
 
 
 *  `_data/navigation.yml` 用意
