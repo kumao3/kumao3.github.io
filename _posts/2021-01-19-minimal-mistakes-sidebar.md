@@ -56,6 +56,7 @@ kumao:
 
 #### サイドバーにナビ
   *  `_data/navigation.yml` 用意
+
 ```
 docs:
   - title: "Quick-Start Guide"
