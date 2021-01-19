@@ -44,7 +44,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 $ bundle install
 ```
 
-### config
+### 各種設定
 
 * _config.yml
 
