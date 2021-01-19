@@ -16,6 +16,11 @@ tags:
 
 色々なカスタマイズについてのメモ。
 
+ここを参考にする。
+
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+
 ## 記事追加
 
 最初に用意されている`_posts/2021-01-19-welcome-to-jekyll.markdown` を参考に記事を追加していく。
