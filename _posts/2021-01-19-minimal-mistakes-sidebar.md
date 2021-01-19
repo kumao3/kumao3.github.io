@@ -24,19 +24,18 @@ https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 最初に用意されている`_posts/2021-01-19-welcome-to-jekyll.markdown` を参考に記事を追加していく。
 
-## ロゴ追加
 
+## サイトの設定
+
+#### ロゴ変更
+
+* ロゴファイル追加
 ```
 mkdir -p assets/images
 ロゴデータをasses/images/logo.svgとして作成
 ```
 
-## サイトの設定
-
-* `_config.yml` で設定
-
-#### ロゴ変更
-
+* _config.yml追記 
 ```
 logo: asses/images/logo.svg
 ```
