@@ -41,6 +41,7 @@ defaults:
     values:
       layout: wide
       toc: true
+      author: kumao
       author_profile: true
       read_time: true
       comments: true

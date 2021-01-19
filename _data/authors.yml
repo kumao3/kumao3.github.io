@@ -1,0 +1,8 @@
+kumao:
+  name        : "kumao"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/me.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kumao3"
