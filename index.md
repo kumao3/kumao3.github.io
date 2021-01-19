@@ -7,4 +7,6 @@ author: kumao
 author_profile: true
 sidebar:
   nav: "docs"
+header:
+  image: /assets/images/header_top_1.jpg  
 ---
