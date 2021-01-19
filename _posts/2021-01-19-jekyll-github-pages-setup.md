@@ -13,6 +13,8 @@ tags:
 - Minimal mistakes
 ---
 
+# Jekyll/Github Pages
+
 jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと思い、
 その環境構築をしたときのメモ。
 
