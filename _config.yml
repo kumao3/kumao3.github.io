@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-logo: "/assets/images/header.svg"
+logo: "/assets/images/logo.svg"
 
 # Build settings
 markdown: kramdown
