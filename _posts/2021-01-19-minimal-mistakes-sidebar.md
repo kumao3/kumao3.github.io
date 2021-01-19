@@ -2,7 +2,7 @@
 layout   : single
 title    : "Minimal Mistakesのカスタマイズ"
 published: true
-date     : 2021-01-19 11:20:00 +0900
+date     : 2021-01-19 11:30:00 +0900
 comments : false
 toc: true
 categories:
