@@ -28,7 +28,7 @@ mkdir -p assets/images
 logo: asses/images/logo.svg
 ```
 
-## サイドバー追加
+## ナビゲーション追加(画面上のタブっぽいやつ)
 
 
 *  `_data/navigation.yml` 用意
