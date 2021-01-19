@@ -20,6 +20,8 @@ jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと
 
 ## セットアップ
 
+### プロジェクト作成
+
 * githubでのレポジトリを作成する。`kumao3.github.io`
 * git cloneしてclone先ディレクトリに移動。
 * jekyllプロジェクト?作成
@@ -28,7 +30,8 @@ jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと
 $ bundle install jekyll -v=3.9.0
 $ jekyklll new .
 ```
-* bundle install
+
+### Gemfile/bundle install
 
 ```
 Gemfile
@@ -41,6 +44,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 $ bundle install
 ```
 
+### config
 
 * _config.yml
 
@@ -80,7 +84,9 @@ plugins:
 #   - vendor/ruby/
 ```
 
-*  githubに git push
+### サイト反映
+
+githubに git push
 
 ```
 git add -A && git commit -m update && git push
