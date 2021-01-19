@@ -8,6 +8,7 @@ jekyll(`theme:minimal-mistakes`)でgithub pagesにブログを公開しようと
 * githubでのレポジトリを作成する。`kumao3.github.io`
 * git cloneしてclone先ディレクトリに移動。
 * jekyllプロジェクト?作成
+
 ```
 $ bundle install jekyll -v=3.9.0
 $ jekyklll new .
@@ -27,8 +28,10 @@ $ bundle install
 
 
 * _config.yml
+
   * `remote_theme: "mmistakes/minimal-mistakes@4.21.0"`　置き換え
   * `plugins: jekyll-include-cache` 追記
+
 ```
 title: Your awesome title
 email: your-email@example.com
