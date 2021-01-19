@@ -27,16 +27,34 @@ mkdir -p assets/images
 ロゴデータをasses/images/logo.svgとして作成
 ```
 
-## toc追加
+## 記事のスタイル変更
 
-各記事のYAML Front Matter(先頭行)に追記
+* YAML Front Matter(先頭行)に記載する
+
+
+### toc追加
+
 ```
 toc: true
 ```
 
+### 記事の幅変更
+
+* 各記事のYAML Front Matter(先頭行)に追記
+```
+classes: wide
+```
+
 * https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents
 
-* _config.yml 追記
+
+## サイトの設定
+
+* _config.ymlに設定する。
+
+
+### ロゴ変更
+
 
 ```
 logo: asses/images/logo.svg
