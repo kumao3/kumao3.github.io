@@ -5,7 +5,7 @@ published: true
 date     : 2021-01-19 11:00:00 +0900
 comments : false
 categories:
-- ブログ
+- blog
 tags:
 - Jekyll
 - github
