@@ -33,6 +33,9 @@ minimal_mistakes_skin: "default"
 #   - vendor/gems/
 #   - vendor/ruby/
 
+head_scripts:
+ - /assets/js/counter.js
+ 
 defaults:
   # _posts
   - scope:
