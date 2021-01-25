@@ -36,7 +36,7 @@ minimal_mistakes_skin: "default"
 analytics:
   provider: "google-universal"
   google:
-    tracking_id: "UA-4387706-5s"
+    tracking_id: "UA-4387706-5"
     anonymize_ip: false # default
 
 defaults:
