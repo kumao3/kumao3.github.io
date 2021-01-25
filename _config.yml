@@ -34,7 +34,10 @@ minimal_mistakes_skin: "default"
 #   - vendor/ruby/
 
 analytics:
-  provider: "custom"
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-4387706-5s"
+    anonymize_ip: false # default
 
 defaults:
   # _posts
