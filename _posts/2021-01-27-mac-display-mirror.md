@@ -23,6 +23,9 @@ mac book pro本体の画面(2)と外付けモニタ(1)だけでミラーリン�
 * `(2)の画面にそのままドラッグ`　という操作を行う。
 
 <figure class="half">
-  <img src="/assets/images/2021-01-27/s1.jpg">
-  <img src="/assets/images/2021-01-27/s2.jpg">
+  <img src="/assets/images/2021-01-27/s1.png">
+  <img src="/assets/images/2021-01-27/s2.png">
 </figure>
+
+
+2年に1回くらいこの設定をしているのでメモっておく。
