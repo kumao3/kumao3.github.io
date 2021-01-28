@@ -1,6 +1,6 @@
 ---
 layout   : single
-title    : "github pagesを独自ドメインで置き換え"
+title    : ":pig2:github pagesを独自ドメインで置き換え"
 published: true
 date     : 2021-01-19 12:30:00 +0900
 comments : false

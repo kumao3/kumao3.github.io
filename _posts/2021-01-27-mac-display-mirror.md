@@ -1,6 +1,6 @@
 ---
 layout   : single
-title    : "特定のディスプレイ同士をミラーリングする(mac)"
+title    : ":goat:特定のディスプレイ同士をミラーリングする(mac)"
 published: true
 date     : 2021-01-27 11:30:00 +0900
 comments : false
@@ -13,7 +13,7 @@ tags:
 ---
 
 
-## :goat: ミラーリング設定
+## :point_up:ミラーリング設定
 
 mac book proを2台のディスプレイにつないでディスプレイ設定をみると下のように3画面表示される。
 
