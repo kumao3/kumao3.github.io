@@ -14,7 +14,7 @@ tags:
 
 # Docker for Macが重くてつらい
 
-* メモリ16GBのMac Book ProでDocker for Macを起動して作業をしていると、ファンが回ってうるさいし動作も色々もっさりで、我慢できなくなってきた。
+* メモリ16GBのMac Book ProでDocker for Macを起動して作業をしていると、動作も色々もっさりだしファンが回ってうるさいしで、我慢できなくなってきた。
 * WindowsのWSL2で動いているDockerdを利用してMacを静かに使いたいなと思ったので設定をしてみた。
 
 ## 設定メモ
