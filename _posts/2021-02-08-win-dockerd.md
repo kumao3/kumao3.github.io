@@ -29,6 +29,24 @@ Expose daemon on tcp://localhost:2375 without TLS
 
 #### windowsにポートフォワードを設定する
 
+
+* 前提
+```
+192.168.0.10: 家のLAN内のWindowsにつけた固定IPアドレス
+```
+
+上記のDockerでの設定では0.0.0.0ではなくlocalhost:2375でListenするので,192.168.0.10:12375宛のアクセスを127.0.0.1:2375に転送するようにポートフォワードを設定することにした。(13275にしたのはなんとなく。)
+
+```
+Mac 192.168.0.9
+↓
+Windows 192.168.0.10:12375
+↓
+ポートフォワード
+↓
+Docker(WSL2) 127.0.0.1:2375
+```
+
 ```
 C:\Windows\system32>netsh interface portproxy add v4tov4 listenport=12375 listenaddr=0.0.0.0 connectport=2375 connectaddress=127.0.0.1
 
@@ -56,7 +74,6 @@ $ DOCKER_HOST=192.168.0.10:12375 docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-(192.168.0.10は家のLAN内のWindowsにつけた固定IPアドレス)
 
 
 #### 環境変数DOCKER_HOSTの
