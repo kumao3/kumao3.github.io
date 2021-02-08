@@ -76,9 +76,12 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 
 
-#### 環境変数DOCKER_HOSTの
+#### 環境変数DOCKER_HOSTの追加
+
+自分のmacではfishを使っているので、
 
 * ~/.config/fish/config.fish
+
 追記
 ```
 set -x DOCKER_HOST 192.168.0.10:12375
